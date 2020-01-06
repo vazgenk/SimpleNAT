@@ -1,0 +1,2 @@
+Simple NAT
+Takes NAT mappings in the format <ip1>:<port1>,<ip2><port2>, where ip1 or port1 (but not both) can be masked with *, and a list of flows <ip>:<port>, and outputs the flows after they have been translated by the NAT.
